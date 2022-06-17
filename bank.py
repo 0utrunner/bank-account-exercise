@@ -115,9 +115,11 @@ class CheckingAccount(Account):
 
 
 atm = Bank()
+p1 = Account('5656', 2480)
 atm.create_account()
-
-sa = SavingsAccount(10000)
+print(p1.make_deposit(1800))
+print(atm.all_accounts())
+# sa = SavingsAccount(10000)
 # print(sa.make_withdraw(10))
-print(sa.add_interest(0.25))
+# print(sa.add_interest(0.25))
 
